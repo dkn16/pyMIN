@@ -4,9 +4,6 @@ import numpy as np
 from sympy import LeviCivita
 from numba import jit
 
-import os
-import t2c as t21c
-
 
 @jit
 def calculateMFs(data,thresholds=[],min_sig=-3,max_sig=3,step=0.1,deltabin=0.4,is_need_calculate_bin=True):
