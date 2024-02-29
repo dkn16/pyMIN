@@ -12,7 +12,12 @@ Enviroment requirement: numpy, numba and sympy. For sympy you can just substitud
 Function `calculateMFs` Calculate the 3D MFs ($V_{0}-V_{3}$) of a given field (must be 3D).
 
 ## Example
-
+Please download (only) pyMIN.py to one of the system paths. Or, you can download it to any folder and add that folder to system paths:
+```
+import sys
+sys.path.append('~/where/you/download/the/script/')
+```
+Then you can import and calculate.
 ```
 import pyMIN as pm
 import numpy as np
